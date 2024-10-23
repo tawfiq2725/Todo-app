@@ -9,9 +9,9 @@ export const TodoWrapper = () => {
 
   const addTodo = (todo) => {
     setTodos([
-      ...todos,
+      
       { id: uuidv4(), task: todo, completed: false, isEditing: false },
-    ]);
+      ...todos]);
   }
 
   const deleteTodo = (id) => setTodos(todos.filter((todo) => todo.id !== id));
