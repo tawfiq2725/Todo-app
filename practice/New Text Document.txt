@@ -1,0 +1,30 @@
+import 
+
+useEffect(()=>{
+	console.log('component mounted') //Mounted
+	setCounter(count+1) //Update
+	return ()=>{
+	setCounter(0)//Unmounter
+})
+
+
+const obj = {
+  isLogin:true
+}
+{isLogin && <p>Hello User</p>}
+
+<>
+
+</>
+
+com -1
+Counter - label - 0
+
+com-2
++ -
+
+
+
+
+
+
